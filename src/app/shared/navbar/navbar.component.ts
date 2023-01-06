@@ -12,9 +12,11 @@ export class NavbarComponent implements OnInit {
     this.items = [
       {
           label: 'Connect',
+          routerLink: 'vnc'
       },
       {
           label: 'Admin',
+          routerLink: 'admin'
       }
   ];
   }
