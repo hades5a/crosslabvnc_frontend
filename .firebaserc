@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "croab-51129": {
+      "hosting": {
+        "crosslabvnc": [
+          "croab-51129"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "croab-51129"
+  }
+}

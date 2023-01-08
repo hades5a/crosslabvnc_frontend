@@ -101,6 +101,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "crosslabvnc:build:production",
+            "firebaseProject": "croab-51129",
+            "firebaseHostingSite": "croab-51129"
+          }
         }
       }
     }
