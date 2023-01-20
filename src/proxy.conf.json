@@ -1,0 +1,6 @@
+{
+    "/mod/page/": {
+    "target": "http://localhost",
+    "secure": false
+    }
+}

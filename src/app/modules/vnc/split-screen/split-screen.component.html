@@ -1,0 +1,17 @@
+
+
+
+<p-splitter 
+[style]="{'height': '100vh', 'width': '99.1vw', 'border': 'none'}" 
+[panelStyle]="{'width': '50vw'}"
+[gutterSize]="12"
+>
+    <ng-template pTemplate>
+        <div class="w-full h-full">
+            <app-remote-desktop></app-remote-desktop>
+        </div>
+    </ng-template>
+    <ng-template pTemplate>
+        <iframe src="http://localhost/mod/page/view.php?id=13" #iframe class="quiz"></iframe>
+    </ng-template>
+</p-splitter>
