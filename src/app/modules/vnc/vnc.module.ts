@@ -8,6 +8,7 @@ import {DialogModule} from 'primeng/dialog';
 import {SplitterModule} from 'primeng/splitter';
 import {SpeedDialModule} from 'primeng/speeddial';
 import { SplitScreenComponent } from './split-screen/split-screen.component';
+import { LtiService } from 'src/app/services/lti.service';
 @NgModule({
   declarations: [
     RemoteDesktopComponent,
